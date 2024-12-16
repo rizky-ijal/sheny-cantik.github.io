@@ -282,6 +282,13 @@ body {
   background-color: var(--primary);
   border-radius: 8px;
 }
+
+.contact .row form .btn:hover {
+  background-color: black;
+  color: var(--primary);
+  transition: 0.5s;
+}
+
  
 
 /* footer */
@@ -322,6 +329,11 @@ footer .credit {
 footer .credit a {
   color: var(--bg);
   font-weight: 700;
+}
+
+footer .credit a:hover{
+  background-color: black;
+  color: var(--primary);
 }
 /* media queries */
 
